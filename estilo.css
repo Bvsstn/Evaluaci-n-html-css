@@ -1,30 +1,80 @@
 body {
     
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-    color: var(--simpson-ink);
     background:
         radial-gradient(circle at top left, rgba(142, 219, 224, 0.95), transparent 28%),
         linear-gradient(180deg, #8cf3fa 0%, #cfeeff 36%, #e1ffdb 100%);
 }
 
 header {
-    align-items: center;
-    justify-content: space-between;
-    gap: 24px;
-    padding: 28px 32px;
-    margin-top: 28px;
-   
-    border: 4px solid rgba(31, 42, 68, 0.08);
+    padding: 28px;
+    margin: 100px;
+    border: 4px solid rgba(39, 71, 141, 0.404);
     border-radius: 30px;
 }
 
-main {
+.osornocomp {
+    display: flex;
+    justify-content: center;
     align-items: center;
+
+}
+
+.registro {
+    display: flex;
+    justify-content: flex-end;
+    
+
+}
+.cabeza {
+    display: flex;
+
+    align-items: center;
+    gap: 16px;
+}
+
+#Servicios {
     justify-content: space-between;
-    gap: 24px;
-    padding: 28px 32px;
-    margin-top: 28px;
+    padding: 28px;
+    margin: 100px;
    
-    border: 4px solid rgba(31, 42, 68, 0.08);
+    border: 4px solid rgba(39, 71, 141, 0.404);
+    border-radius: 30px;
+}
+
+#NuestroTeam {
+    justify-content: flex-start;
+    padding: 28px;
+    margin: 100px;
+   
+    border: 4px solid rgba(39, 71, 141, 0.404);
+    border-radius: 30px;
+}
+
+.team {
+    justify-content: space-between;
+    padding: 28px;
+    margin: 10px;
+   
+    border: 4px solid rgba(39, 71, 141, 0.404);
+    border-radius: 30px;
+}
+
+#Contacto {
+    justify-content: space-between;
+    padding: 28px;
+    margin: 100px;
+    border: 4px solid rgba(39, 71, 141, 0.404);
+    border-radius: 30px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 28px;
+    margin: 100px;
+  
+    border: 4px solid rgba(39, 71, 141, 0.404);
     border-radius: 30px;
 }
